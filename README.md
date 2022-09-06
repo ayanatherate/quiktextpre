@@ -1,7 +1,7 @@
 # Save time by not writing repetitive code across NLP projects! 
 
 
-<h3> Run: </h3>
+<h2> Run: </h2>
 ! git clone https://github.com/ayanatherate/quicktextpreprocess.git <br>
 <h4 style='font-family:monospace;'>Example code: <br><br>from quicktextpreprocess import helper_nlp<br> <br>import pandas as pd <br><br> data = pd.read_csv( r'../reviews.csv' )<br><br>processed_text_from_column= helper_nlp.process_text ( data=data , column='Reviews', treatment_type='lemmatization', remove_int=True, drop_na=True)</h4>
 
