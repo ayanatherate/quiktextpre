@@ -7,7 +7,7 @@
 
 <br>
 <h2> Does: </h2>
-1) Basic Data Cleaning using RegEX<br>
+1) Basic Data Cleaning (RegEX)<br>
 2) Missing Values Treatment <br>
 3) Lemmatization/Stemming/both, based on choice<br>
 4) Stop-words removal<br>
