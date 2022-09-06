@@ -21,8 +21,8 @@ nltk<br>
 warnings<br>
 
 <h2>Arguments:</h2>
-dataset (dataset should already be accessed with pandas)<br><br>
-Column  (Column name on which the pre-processing function would be performed)<br><br>
+data=dataset (dataset should already be accessed with pandas)<br><br>
+column=column_name  (Column name on which the pre-processing function would be performed)<br><br>
 treatment_type='lemmatization'/'stemming'/'both' (Choice of either lemmatization/stemming or both of the text in the column)  [default: 'lemmatization']<br><br>
 remove_int=True/False (Cleans integers present in the text if True, else ignores)  [default: False]<br><br>
 drop_na=True/False (Drops rows with missing values if True, else ignores)  [default: False]<br><br>
