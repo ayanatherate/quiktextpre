@@ -3,7 +3,7 @@
 
 <h3> Run: </h3>
 ! git clone https://github.com/ayanatherate/quicktextpreprocess.git <br>
-<h4 style='font-family:monospace;'>Example code: <br><br>from quicktextpreprocess import helper_nlp <br>import pandas as pd <br><br> data = pd.read_csv( r'../reviews.csv' )<br><br>processed_text_from_column= helper_nlp.process_text ( data=data , column='Reviews', treatment_type='lemmatization', remove_int=True, drop_na=True)</h4>
+<h4 style='font-family:monospace;'>Example code: <br><br>from quicktextpreprocess import helper_nlp<br> <br>import pandas as pd <br><br> data = pd.read_csv( r'../reviews.csv' )<br><br>processed_text_from_column= helper_nlp.process_text ( data=data , column='Reviews', treatment_type='lemmatization', remove_int=True, drop_na=True)</h4>
 
 <br>
 <h2> Does: </h2>
