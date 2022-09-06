@@ -2,9 +2,9 @@
 
 
 <h2> Run: </h2>
-! git clone https://github.com/ayanatherate/quicktextpreprocess.git <br>
+! git clone https://github.com/ayanatherate/quiktextpreprocess.git <br>
 <h2 style='font-family:monospace;'>Example code:</h2>
-<h4 style='font-family:monospace;'>from quicktextpreprocess import helper_nlp<br> <br>import pandas as pd <br><br> data = pd.read_csv( r'../reviews.csv' )<br><br>processed_text_from_column= helper_nlp.process_text ( data=data , column='Reviews', treatment_type='lemmatization', remove_int=True, drop_na=True)</h4>
+<h4 style='font-family:monospace;'>from quiktextpreprocess import helper_nlp<br> <br>import pandas as pd <br><br> data = pd.read_csv( r'../reviews.csv' )<br><br>processed_text_from_column= helper_nlp.process_text ( data=data , column='Reviews', treatment_type='lemmatization', remove_int=True, drop_na=True)</h4>
 
 
 <br>
