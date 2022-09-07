@@ -20,7 +20,7 @@ re<br>
 nltk<br>
 
 
-<h2>Arguments:</h2>
+<h2>Parameters:</h2>
 data=dataset (dataset should already be accessed with pandas)<br><br>
 column=column_name  (Column name on which the pre-processing function would be performed)<br><br>
 treatment_type='lemmatization'/'stemming'/'both' (Choice of either lemmatization/stemming or both of the text in the column)  [default: 'lemmatization']<br><br>
