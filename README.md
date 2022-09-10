@@ -13,7 +13,10 @@ git clone https://github.com/ayanatherate/quiktextpreprocess.git
 from quiktextpreprocess import helper_nlp
 import pandas as pd
 data = pd.read_csv( r'../reviews.csv' )
-processed_text_from_column= helper_nlp.process_text ( data=data , column='Reviews', treatment_type='lemmatization', remove_int=True, drop_na=True)
+processed_text_from_column= helper_nlp.process_text ( data=data , column='Reviews', 
+                                                     treatment_type='lemmatization', 
+                                                     remove_int=True, drop_na=True)
+
 ```
 
 
