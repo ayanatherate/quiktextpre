@@ -61,6 +61,7 @@ def process_text( data, column_name, treatment_type='lemmatization', remove_int=
         
         for i in range(len(data)):
             review=str(data[column_name][i])
+            review=re.sub('\n',' ',review)
             if remove_int==True:
                 review=re.sub(r'[^a-zA-Z  ]','',review)
             else:
@@ -77,6 +78,7 @@ def process_text( data, column_name, treatment_type='lemmatization', remove_int=
         
         for i in range(len(data)):
             review=str(data[column_name][i])
+             review=re.sub('\n',' ',review)
             if remove_int==True:
                 review=re.sub(r'[^a-zA-Z  ]','',review)
             else:
@@ -94,6 +96,7 @@ def process_text( data, column_name, treatment_type='lemmatization', remove_int=
         
         for i in range(len(data)):
             review=str(data[column_name][i])
+             review=re.sub('\n',' ',review)
             if remove_int==True:
                 review=re.sub(r'[^a-zA-Z  ]','',review)
             else:
