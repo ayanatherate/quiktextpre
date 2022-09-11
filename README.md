@@ -22,7 +22,7 @@ processed_text_from_column= helper_nlp.process_text ( data=data , column='Review
 
 <br>
 <h2> Does: </h2>
-1) Basic Text Cleaning<br>
+1) Basic Text Cleaning (unwanted characters/spaces removal, basic with a b)<br>
 2) Missing Values Treatment <br>
 3) Lemmatization/Stemming/both, based on choice<br>
 4) Stop-words removal<br>
